@@ -1,8 +1,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<script type="text/javascript" src="../js/PackageInstallerExercise.js"></script>
+	<script src="js/PackageInstallerExercise.js"></script>
     <title>Package Installer Excercise</title>
 </head>
 <body>
-
+	<div>
+		<span>Please input array of package names here.</span>
+		<input type="textarea" id="packagesInput" />
+		<input type="button" value="Get Install Order" onclick="getInstallOrder()" />
+	<div>
+	<div>
+		<span>Result:</span>
+		<div id="result"></div>
+	</div>
 </body>

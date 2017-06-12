@@ -1,3 +1,8 @@
+function getInstallOrder(){
+	var str = document.getElementById("packagesInput").value;
+	console.log(str);
+	document.getElementById("result").innerHTML = getPackageOrder(JSON.parse(str));
+}
 
 function getPackageOrder(packageList){
 	try{
